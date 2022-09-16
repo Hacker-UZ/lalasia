@@ -1,0 +1,207 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: "EudoxusSansGX";
+    src: url(../fonts/EudoxusSansGX.ttf);
+}
+
+body {
+    background-color: #aae;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+/* menular qatori boshlanishi */
+.nav {
+    width: 100%;
+    padding: 0 100px 0 100px;
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #F3F3F3;
+}
+
+.logo {
+    width: 129px;
+    height: 42px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: "EudoxusSansGX";
+    font-weight: bold;
+    align-items: center;
+    color: #151411;
+}
+
+.logo-icon {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+}
+
+.menu {
+    width: 471px;
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 40px;
+    line-height: 120px;
+    align-items: center;
+}
+
+.link {
+    font-family: "EudoxusSansGX";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #151411;
+    height: 100%;
+    display: block;
+}
+
+.link:hover {
+    color: #518581;
+    border-bottom: 3px solid #518581;
+}
+
+.icon {
+    width: 80px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+.user-icon {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* menular qatori tugashi */
+
+/* o'rta maydom boshlanishi*/
+.center {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: "EudoxusSansGX";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130%;
+    text-align: center;
+    color: #151411;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.center-text {
+    width: 600px;
+    height: 64px;
+    font-family: "EudoxusSansGX";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #AFADB5;
+    margin-bottom: 50px;
+}
+
+.center-img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(../img/center-img.png );
+}
+
+.center-img-text {
+    max-width: 1176px;
+    height: 100%;
+    position: absolute;
+    right: 132px;
+    left: 132px;
+    top: 149px;
+
+}
+
+.discount {
+    width: 61px;
+    height: 25px;
+    font-family: "EudoxusSansGX";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #FFFFFF;
+    background-color: #518581;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 23px;
+}
+
+.center-img-text-title {
+    width: 453px;
+    height: 57px;
+    font-family: "EudoxusSansGX";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.center-img-inner-text {
+    width: 416px;
+    height: 62px;
+    font-family: "EudoxusSansGX";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.center-left-arrow {
+    position: absolute;
+    left: 40px;
+    top: 224px;
+
+}
+
+.center-right-arrow {
+    position: absolute;
+    right: 40px;
+    top: 224px;
+}
+
+/* o'rta maydom tugashi */
+
+.search {}
+
+.result-page {}
+
+.product {}
